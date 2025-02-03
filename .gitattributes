@@ -1,3 +1,6 @@
+# Binaries
+*.sb3               binary
+
 # Configuration
 .gitattributes      text
 .gitignore          text
