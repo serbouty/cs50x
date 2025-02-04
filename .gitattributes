@@ -1,7 +1,12 @@
+# Sources
+*.c                 text diff=cpp
+*.h                 text diff=cpp
+
 # Binaries
 *.sb3               binary
 
 # Configuration
+*.txt               text
 .gitattributes      text
 .gitignore          text
 
