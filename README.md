@@ -14,6 +14,12 @@ C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studi
 
 Source code: [src/week1](src/week1)
 
+## Week 2 - Arrays
+
+Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Command-Line Arguments. Cryptography.
+
+Source code: [src/week2](src/week2)
+
 ## Tools
 
 - [GCC](https://gcc.gnu.org/)
@@ -21,7 +27,7 @@ Source code: [src/week1](src/week1)
 
 ## Resources
 
-### Common
+### Commons
 
 - [This is CS50](https://cs50.harvard.edu/x/2025/)
 - [CS50 Library for C](https://github.com/cs50/libcs50)
@@ -39,6 +45,11 @@ Source code: [src/week1](src/week1)
 
 - [Week 1 C](https://cs50.harvard.edu/x/2025/weeks/1/)
 - [CS50x 2025 - Lecture 1 - C](https://www.youtube.com/watch?v=89cbCbWrM4U)
+
+### Week 2
+
+- [Week 2 Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
+- [CS50x 2025 - Lecture 2 - Arrays](https://www.youtube.com/watch?v=Y8qnryVy5sQ)
 
 ## License
 
