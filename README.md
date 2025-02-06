@@ -2,38 +2,46 @@
 
 Introduction to computer science from Harvard University.
 
-## Week 0 - Scratch
+## Lectures
+
+### Week 0 - Scratch
 
 Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs. Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB. Abstraction. Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments, Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
 
 Binaries for Scratch: [src/week0](src/week0)
 
-## Week 1 - C
+### Week 1 - C
 
 C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studio Code. Syntax Highlighting. Escape Sequences. Header Files. Libraries. Manual Pages. Types. Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI). Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow. Floating-Point Imprecision.
 
 Source code: [src/week1](src/week1)
 
-## Week 2 - Arrays
+### Week 2 - Arrays
 
 Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Command-Line Arguments. Cryptography.
 
 Source code: [src/week2](src/week2)
 
-## Tools
+### Week 3 - Algorithms
 
-- [GCC](https://gcc.gnu.org/)
-- [Cmake](https://cmake.org/)
+Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort. Asymptotic Notation: O, Ω, Θ. Recursion.
+
+Source code: [src/week3](src/week3)
+
+## Requirements
+
+- [GCC (14.2.0)](https://gcc.gnu.org/)
+- [CMake (3.31.2)](https://cmake.org/)
 
 ## Resources
 
-### Commons
+### Common
 
-- [This is CS50](https://cs50.harvard.edu/x/2025/)
-- [CS50 Library for C](https://github.com/cs50/libcs50)
+- [CS50x 2025](https://cs50.harvard.edu/x/2025/)
+- [CS50's Library for C](https://github.com/cs50/libcs50)
 - [CS50 Manual Pages](https://manual.cs50.io/)
-- [C Language Reference](https://learn.microsoft.com/en-us/cpp/c-language/c-language-reference?view=msvc-170)
-- [CMake Documentation](https://cmake.org/cmake/help/latest/)
+- [C Language](https://en.cppreference.com/w/c/language)
+- [CMake Reference](https://cmake.org/cmake/help/latest/)
 
 ### Week 0
 
@@ -50,6 +58,11 @@ Source code: [src/week2](src/week2)
 
 - [Week 2 Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
 - [CS50x 2025 - Lecture 2 - Arrays](https://www.youtube.com/watch?v=Y8qnryVy5sQ)
+
+### Week 3
+
+- [Week 3 Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
+- [CS50x 2025 - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
 
 ## License
 
