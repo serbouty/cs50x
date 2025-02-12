@@ -38,10 +38,9 @@ Source code: [src/week3](src/week3)
 
 ### Common
 
-- [CS50x 2025](https://cs50.harvard.edu/x/2025/)
-- [CS50 Manual Pages](https://manual.cs50.io/)
-- [C Language](https://en.cppreference.com/w/c/language)
+- [C Reference](https://en.cppreference.com/w/c/language)
 - [CMake Reference](https://cmake.org/cmake/help/latest/)
+- [CS50 Manual Pages](https://manual.cs50.io/)
 
 ### Week 0
 
@@ -66,15 +65,17 @@ Source code: [src/week3](src/week3)
 
 ## Roadmap
 
-- [x] Week 0 - Scratch
-- [x] Week 1 - C
-- [x] Week 2 - Arrays
-- [x] Week 3 - Algorithms
+- [x] ~~Week 0 - Scratch~~
+- [x] ~~Week 1 - C~~
+- [x] ~~Week 2 - Arrays~~
+- [x] ~~Week 3 - Algorithms~~
 - [ ] Week 4 - Memory
 - [ ] Week 5 - Data Structures
-- [ ] Week 6 - Python, Artificial Intelligence
+- [ ] Week 6 - Python
 - [ ] Week 7 - SQL
 - [ ] Week 8 - HTM, CSS, JavaScript
+- [ ] Week 9 - Flask
+- [ ] Week 10 - The End
 
 ## License
 
