@@ -28,17 +28,17 @@ Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, M
 
 Source code: [src/week3](src/week3)
 
-## Requirements
+## Dependencies
 
-- [GCC (14.2.0)](https://gcc.gnu.org/)
-- [CMake (3.31.2)](https://cmake.org/)
+- [CMake 3](https://cmake.org/)
+- [CS50 Library 11](https://github.com/cs50/libcs50)
+- [GCC 14](https://gcc.gnu.org/)
 
 ## Resources
 
 ### Common
 
 - [CS50x 2025](https://cs50.harvard.edu/x/2025/)
-- [CS50's Library for C](https://github.com/cs50/libcs50)
 - [CS50 Manual Pages](https://manual.cs50.io/)
 - [C Language](https://en.cppreference.com/w/c/language)
 - [CMake Reference](https://cmake.org/cmake/help/latest/)
@@ -63,6 +63,18 @@ Source code: [src/week3](src/week3)
 
 - [Week 3 Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
 - [CS50x 2025 - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
+
+## Roadmap
+
+- [x] Week 0 - Scratch
+- [x] Week 1 - C
+- [x] Week 2 - Arrays
+- [x] Week 3 - Algorithms
+- [ ] Week 4 - Memory
+- [ ] Week 5 - Data Structures
+- [ ] Week 6 - Python, Artificial Intelligence
+- [ ] Week 7 - SQL
+- [ ] Week 8 - HTM, CSS, JavaScript
 
 ## License
 
