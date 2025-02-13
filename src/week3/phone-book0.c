@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    /* Wrong design.*/
+    /* Wrong design. */
     string names[] = {"David", "John", "Yuliia"};
     string numbers[] = {"+1-617-495-1000", "+1-949-468-2750", "+1-617-495-1000"};
 

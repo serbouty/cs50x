@@ -2,21 +2,12 @@
 #include <stdio.h>
 
 /**
- * Types:
- *
  * bool     1 byte       8 bits
  * int      4 bytes     32 bits
  * long     8 bytes     64 bits
  * float    4 bytes     32 bits
  * double   8 bytes     64 bits
  * char     1 byte       8 bits
- * ...
- *
- * Data structures:
- *
- * arrays   ? bytes      ? bits
- * strings  ? bytes      ? bits
- * ...
  */
 int main(void)
 {
