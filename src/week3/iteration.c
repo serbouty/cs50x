@@ -1,11 +1,16 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
 void draw(int n);
 
+/**
+ * Build a block with iterations.
+ */
 int main(void)
 {
-    int height = get_int("Height: ");
+    int height;
+    printf("Height: ");
+    scanf("%i", &height);
+
     draw(height);
 }
 

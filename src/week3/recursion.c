@@ -1,17 +1,22 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
 void draw(int n);
 
+/**
+ * Example of recursive functions.
+ */
 int main(void)
 {
-    int height = get_int("Height: ");
+    int height;
+    printf("Height: ");
+    scanf("%i", &height);
+
     draw(height);
 }
 
 void draw(int n)
 {
-    /* Stop recursion to avoid an infinite loop. */
+    /* Always stop recursion to avoid an infinite loop. */
     if (n <= 0)
     {
         return;

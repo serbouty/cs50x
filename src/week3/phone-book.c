@@ -1,17 +1,18 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 #include <string.h>
 
-/* Define a structure. */
+/* Struct declaration for a person. */
 typedef struct
 {
-    string name;
-    string number;
+    char *name;
+    char *number;
 } person;
 
+/**
+ * Search a user within a phone book.
+ */
 int main(void)
 {
-    /* Better design. */
     person people[3];
 
     people[0].name = "David";
@@ -20,14 +21,15 @@ int main(void)
     people[1].name = "John";
     people[1].number = "+1-949-468-2750";
 
-    people[2].name = "Yuliia";
+    people[2].name = "Julia";
     people[2].number = "+1-617-495-1000";
 
-    const char *pX = "John";
+    const char *input = "John";
 
     for (int i = 0; i < 3; i++)
     {
-        if (strcmp(people[i].name, pX) == 0)
+        /* Compare the input with existing names. */
+        if (strcmp(people[i].name, input) == 0)
         {
             printf("Found %s\n", people[i].number);
             return 0;

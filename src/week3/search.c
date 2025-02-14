@@ -1,4 +1,3 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
 /**
@@ -33,12 +32,14 @@ int main(void)
 {
     int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
-    /* Search a number listed above. */
-    int n = get_int("Number: ");
+    /* Search a number from the unordered list above. */
+    int n;
+    printf("Number: ");
+    scanf("%i", &n);
 
     int steps = 0;
 
-    /* Paradigm for linear search. */
+    /* Common paradigm for linear search. */
     for (int i = 0; i < 7; i++)
     {
         steps++;
@@ -46,7 +47,6 @@ int main(void)
         if (numbers[i] == n)
         {
             printf("Found, %i steps.\n", steps);
-
             return 0;
         }
     }
