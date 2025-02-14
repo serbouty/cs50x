@@ -1,4 +1,3 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
 /**
@@ -16,7 +15,8 @@ int main(void)
 
     for (int i = 0; i < N; i++)
     {
-        scores[i] = get_int("Score: ");
+        printf("Score: ");
+        scanf("%i", &scores[i]);
     }
 
     /* Print average. */

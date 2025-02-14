@@ -20,7 +20,7 @@ int main(void)
 
 void meow()
 {
-    printf("meow\n");
+    printf("Meow\n");
 }
 
 /**

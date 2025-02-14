@@ -1,16 +1,17 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
-int main(int argc, string argv[])
+/**
+ * Use arguments when launching a program.
+ */
+int main(int argc, char *argv[])
 {
+    /* arg[0] and arg[1] must be defined to use arguments. */
     if (argc != 2)
     {
         printf("Missing commend-line argument\n");
-
-        return 1; /* Failure */
+        return 1;
     }
 
-    printf("hello, %s\n", argv[1]);
-
-    return 0; /* Success */
+    printf("Hello, %s\n", argv[1]);
+    return 0;
 }
