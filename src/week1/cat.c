@@ -1,32 +1,39 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
-/* Declare methods before main to avoid compilation failure. */
 int get_positive_int(void);
 void meow(int n);
 
+/**
+ * Meowing from the prompt.
+ */
 int main(void)
 {
-    /* Ensure the integer is positive before calling meow. */
     int times = get_positive_int();
 
     meow(times);
+    return 0;
 }
 
+/**
+ * Ask how many meows to print.
+ */
 int get_positive_int(void)
 {
-    int n;
+    int number;
 
     do
     {
-        /* Prompt a user for an int. */
-        n = get_int("Number: ");
+        printf("Number: ");
+        scanf(" %i", &number);
 
-    } while (n < 1);
+    } while (number < 1); /* Repeat until the number is positive. */
 
-    return n;
+    return number;
 }
 
+/**
+ * Print meows n times after user input.
+ */
 void meow(int n)
 {
     for (int i = 0; i < n; i++)

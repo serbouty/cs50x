@@ -1,20 +1,26 @@
-#include "../lib/cs50.c"
+#include <stdbool.h>
 #include <stdio.h>
 
+/**
+ * Provoke an integer overflow.
+ */
 int main(void)
 {
-    int dollars = 1;
-    bool cond = 1;
+    bool condition = 1;
+    int value = 1024;
 
-    /* Provoke an integer overflow. */
-    while (cond)
+    char answer;
+
+    while (condition)
     {
-        /* Prompt a user for a char. */
-        char c = get_char("Here's $%i. Double it and give it to the next person? ", dollars);
+        printf("Here's %i. Double it? ", value);
 
-        if (c == 'y')
+        /* Beware of \n left by scanf, whitespace mandatory. */
+        scanf(" %c", &answer);
+
+        if (answer == 'y' || answer == 'Y')
         {
-            dollars *= 2;
+            value *= 2;
         }
         else
         {
@@ -22,5 +28,6 @@ int main(void)
         }
     }
 
-    printf("Here's $%i", dollars);
+    printf("Here's %i.", value);
+    return 0;
 }

@@ -1,18 +1,25 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
+/**
+ * Ask confirmation from the prompt.
+ */
 int main(void)
 {
-    /* Prompt a user for a char. */
-    char c = get_char("Do you agree? ");
+    char answer;
 
-    /* Ask for a confirmation. */
-    if (c == 'y' || c == 'Y')
+    printf("Do you want to continue? [Y/n] ");
+
+    /* Read data from the prompt, then store the result into answer. */
+    scanf("%c", &answer);
+
+    if (answer == 'y' || answer == 'Y')
     {
-        printf("Agreed.\n");
+        printf("Continue.\n");
+        return 0;
     }
-    else if (c == 'n' || c == 'N')
+    else if (answer == 'n' || answer == 'N')
     {
-        printf("Not agreed.\n");
+        printf("Abort.\n");
+        return 1;
     }
 }

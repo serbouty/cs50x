@@ -1,11 +1,17 @@
-#include "../lib/cs50.c"
 #include <stdio.h>
 
+/**
+ * Compare two integers between them.
+ */
 int main(void)
 {
-    /* Prompt a user for an int. */
-    int x = get_int("What's x? ");
-    int y = get_int("What's y? ");
+    int x;
+    printf("What's x? ");
+    scanf("%i", &x);
+
+    int y;
+    printf("What's y? ");
+    scanf("%i", &y);
 
     if (x < y)
     {

@@ -2,31 +2,36 @@
 
 void print_row(int n);
 
+/**
+ * Build elements found in a Mario game.
+ */
 int main(void)
 {
     const int n = 3;
 
-    /* Build mystery boxes. */
+    /* Build a mystery box. */
     for (int i = 0; i < 4; i++)
     {
         printf("?");
     }
     printf("\n");
 
-    /* Build obstacles. */
+    /* Build an obstacle. */
     for (int i = 0; i < n; i++)
     {
         printf("#\n");
     }
 
-    /* Build blocks. */
+    /* Build a block. */
     for (int i = 0; i < n; i++)
     {
         print_row(n);
     }
 }
 
-/* Build rows. */
+/**
+ * Build each row for a block.
+ */
 void print_row(int n)
 {
     for (int i = 0; i < n; i++)
