@@ -6,4 +6,4 @@ add_executable(scores scores.c)
 
 add_executable(status status.c)
 
-add_executable(string0 string0.c)
+add_executable(string string.c)
