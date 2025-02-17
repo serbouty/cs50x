@@ -28,6 +28,12 @@ Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, M
 
 Source code: [src/week3](src/week3)
 
+### Week 4 - Memory
+
+Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow. File I/O. Images.
+
+Source code: [src/week4](src/week4)
+
 ## Dependencies
 
 - [CMake 3](https://cmake.org/)
@@ -63,13 +69,18 @@ Source code: [src/week3](src/week3)
 - [Week 3 Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
 - [CS50x 2025 - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
 
+### Week 4
+
+- [Week 4 Memory](https://cs50.harvard.edu/x/2025/weeks/4/)
+- [CS50x 2025 - Lecture 4 - Memory](https://www.youtube.com/watch?v=kcRdFGbzR1I)
+
 ## Roadmap
 
 - [x] ~~Week 0 - Scratch~~
 - [x] ~~Week 1 - C~~
 - [x] ~~Week 2 - Arrays~~
 - [x] ~~Week 3 - Algorithms~~
-- [ ] Week 4 - Memory
+- [x] ~~Week 4 - Memory~~
 - [ ] Week 5 - Data Structures
 - [ ] Week 6 - Python
 - [ ] Week 7 - SQL
