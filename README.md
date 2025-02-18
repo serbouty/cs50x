@@ -1,4 +1,4 @@
-# CS50x 2025
+# Computer Science with CS50x 2025
 
 Introduction to computer science from Harvard University.
 
@@ -82,11 +82,6 @@ Source code: [src/week4](src/week4)
 - [x] ~~Week 3 - Algorithms~~
 - [x] ~~Week 4 - Memory~~
 - [ ] Week 5 - Data Structures
-- [ ] Week 6 - Python
-- [ ] Week 7 - SQL
-- [ ] Week 8 - HTM, CSS, JavaScript
-- [ ] Week 9 - Flask
-- [ ] Week 10 - The End
 
 ## License
 
