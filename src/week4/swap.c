@@ -14,7 +14,6 @@ void swap(int *a, int *b);
  *
  * Calling 'malloc' too many times result to an heap overflow.
  * Calling functions too many times result to a stack overflow.
- *
  */
 int main(void)
 {

@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * 'get_int' implementation in native C code.
+ * 'get_int' implementation from CS50 library.
  */
 int main(void)
 {
-    /*  */
     /**
      * Declare a variable, not initialized.
      *

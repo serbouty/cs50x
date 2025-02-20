@@ -5,7 +5,7 @@
 /**
  * Contiguous memory is not necessary with linked list.
  *
- * Runtime of O(n) to search through a node.
+ * Runtime of O(n) for searching through a node.
  */
 typedef struct node
 {
@@ -42,7 +42,7 @@ int main(void)
         /**
          * Link the current node with the previous one.
          *
-         * Runtime of O(1) to insert a node, but values are now backwards.
+         * Runtime of O(1) for inserting a node, but values are now backwards.
          */
         n->next = list;
 

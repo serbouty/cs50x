@@ -13,10 +13,14 @@ int main(void)
 {
     char *s = get_string(NULL, "s: ");
 
-    /* Allocate enough memory to handle the new string. */
-    char *t = malloc(strlen(s) + 1); /* +1 to add the null byte character \0 */
+    /**
+     * Allocate enough memory to handle the new string.
+     *
+     * +1 to add the null byte character \0.
+     */
+    char *t = malloc(strlen(s) + 1);
 
-    /* 'malloc' return NULL if an error is met */
+    /* 'malloc' return NULL if an error is met. */
     if (t == NULL)
     {
         return 1;

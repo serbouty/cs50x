@@ -13,12 +13,11 @@ int main(void)
 
     printf("%i\n", n);
 
-    /* Declare a pointer to store the memory address instead of the value itself. */
     int *p = &n;
 
     /* Print the memory address of n. */
     printf("%p\n", p);
 
-    /* Print the value with the memory address. */
+    /* Print the value of n through the address. */
     printf("%i\n", *p);
 }

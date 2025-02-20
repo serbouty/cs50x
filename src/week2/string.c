@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-/**
- * Display characters as decimal or binary.
- */
 int main(void)
 {
     /* H = 72 (01001000) */

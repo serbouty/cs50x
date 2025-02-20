@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Pointer arithmetic with characters.
+ * Pointer arithmetic overview with characters.
  */
 int main(void)
 {

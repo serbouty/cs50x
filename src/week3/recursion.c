@@ -3,7 +3,7 @@
 void draw(int n);
 
 /**
- * Example of recursive functions.
+ * Example of a recursive function.
  */
 int main(void)
 {
@@ -32,7 +32,7 @@ void draw(int n)
     /**
      * Start printing when recursion above is done.
      *
-     * Rewind to process each call.
+     * Rewind to process each function on the stack.
      */
     for (int i = 0; i < n; i++)
     {

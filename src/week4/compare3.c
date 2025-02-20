@@ -12,12 +12,7 @@ int main(void)
     const char *s = get_string(NULL, "s: ");
     const char *t = get_string(NULL, "t: ");
 
-    /*  */
-    /**
-     * Working as intended, compare values with pair of characters.
-     *
-     * Loop until \0.
-     */
+    /* Working as intended. */
     if (strcmp(s, t) == 0)
     {
         printf("Same\n");

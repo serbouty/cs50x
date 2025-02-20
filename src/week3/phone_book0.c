@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-/* Struct declaration for a person. */
 typedef struct
 {
     char *name;

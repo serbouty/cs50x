@@ -2,9 +2,6 @@
 
 void draw(int n);
 
-/**
- * Build a block with iterations.
- */
 int main(void)
 {
     int height;

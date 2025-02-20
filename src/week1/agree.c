@@ -1,15 +1,11 @@
 #include <stdio.h>
 
-/**
- * Ask confirmation from the prompt.
- */
 int main(void)
 {
     char answer;
 
     printf("Do you want to continue? [Y/n] ");
 
-    /* Read data from the prompt, then store the result into answer. */
     scanf("%c", &answer);
 
     if (answer == 'y' || answer == 'Y')

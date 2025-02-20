@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-/**
- * Use arguments when launching a program.
- */
 int main(int argc, char *argv[])
 {
     /* arg[0] and arg[1] must be defined to use arguments. */
