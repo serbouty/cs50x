@@ -1,6 +1,6 @@
 # CS50x 2025
 
-Learning fundamentals of computer science with native C code.
+Learning the basic concepts of computer science in native C.
 
 ## Week 0 - Scratch
 
@@ -68,6 +68,12 @@ Resources:
 
 - [Week 5 Data Structures](https://cs50.harvard.edu/x/2025/weeks/5/)
 - [CS50x 2025 - Lecture 5 - Data Structures](https://www.youtube.com/watch?v=aV8LlSmd1E8)
+
+## Development
+
+- Builder: [CMake 3.31](https://cmake.org/cmake/help/v3.31/index.html)
+- Compiler: [GCC 14.2](https://gcc.gnu.org/gcc-14/)
+- Editor: [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Roadmap
 
