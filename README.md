@@ -8,7 +8,7 @@ Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs. Repr
 
 Binaries: [src/week0](src/week0)
 
-### Resources:
+Resources:
 
 - [Week 0 Scratch](https://cs50.harvard.edu/x/2025/weeks/0/)
 - [CS50x 2025 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=2WtPyqwTLKM)
