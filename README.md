@@ -1,10 +1,16 @@
 # CS50x 2025
 
-Learning the basic concepts of computer science in native C.
+Introduction to computer science from Harvard University.
+
+Covers the basics of programming, data structures and algorithms with C.
+Also gives an overview on how computers work under the hood with memory management.
 
 ## Week 0 - Scratch
 
-Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs. Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB. Abstraction. Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments, Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
+Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs.
+Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB.Abstraction.
+Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments,
+Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
 
 Binaries: [src/week0](src/week0)
 
@@ -16,7 +22,11 @@ Resources:
 
 ## Week 1 - C
 
-C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studio Code. Syntax Highlighting. Escape Sequences. Header Files. Libraries. Manual Pages. Types. Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI). Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow. Floating-Point Imprecision.
+C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studio Code.
+Syntax Highlighting. Escape Sequences. Header Files. Libraries. Manual Pages. Types.
+Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI).
+Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow.
+Floating-Point Imprecision.
 
 Code: [src/week1](src/week1)
 
@@ -27,7 +37,8 @@ Resources:
 
 ## Week 2 - Arrays
 
-Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Command-Line Arguments. Cryptography.
+Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings.
+Command-Line Arguments. Cryptography.
 
 Code: [src/week2](src/week2)
 
@@ -38,7 +49,8 @@ Resources:
 
 ## Week 3 - Algorithms
 
-Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort. Asymptotic Notation: O, Ω, Θ. Recursion.
+Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort.
+Asymptotic Notation: O, Ω, Θ. Recursion.
 
 Code: [src/week3](src/week3)
 
@@ -49,7 +61,8 @@ Resources:
 
 ## Week 4 - Memory
 
-Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow. File I/O. Images.
+Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow.
+File I/O. Images.
 
 Code: [src/week4](src/week4)
 
@@ -60,7 +73,8 @@ Resources:
 
 ## Week 5 - Data Structures
 
-Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees. Hash Tables. Tries.
+Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees.
+Hash Tables. Tries.
 
 Code: [src/week5](src/week5)
 
@@ -77,12 +91,12 @@ Resources:
 
 ## Roadmap
 
-- [x] ~~Week 0 - Scratch~~
-- [x] ~~Week 1 - C~~
-- [x] ~~Week 2 - Arrays~~
-- [x] ~~Week 3 - Algorithms~~
-- [x] ~~Week 4 - Memory~~
-- [x] ~~Week 5 - Data Structures~~
+- [x] Week 0 - Scratch
+- [x] Week 1 - C
+- [x] Week 2 - Arrays
+- [x] Week 3 - Algorithms
+- [x] Week 4 - Memory
+- [x] Week 5 - Data Structures
 
 ## License
 
