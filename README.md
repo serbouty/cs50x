@@ -12,13 +12,7 @@ Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB.Abstraction.
 Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments,
 Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
 
-Binaries: [src/week0](src/week0)
-
-Resources:
-
-- [Week 0 Scratch](https://cs50.harvard.edu/x/2025/weeks/0/)
-- [CS50x 2025 - Lecture 0 - Scratch](https://www.youtube.com/watch?v=2WtPyqwTLKM)
-- [Scratch Web Editor](https://scratch.mit.edu/projects/editor/)
+Resource: [CS50x 2025 - Week 0 Scratch](https://cs50.harvard.edu/x/2025/weeks/0/)
 
 ## Week 1 - C
 
@@ -30,10 +24,7 @@ Floating-Point Imprecision.
 
 Code: [src/week1](src/week1)
 
-Resources:
-
-- [Week 1 C](https://cs50.harvard.edu/x/2025/weeks/1/)
-- [CS50x 2025 - Lecture 1 - C](https://www.youtube.com/watch?v=89cbCbWrM4U)
+Resource: [CS50x 2025 - Week 1 C](https://cs50.harvard.edu/x/2025/weeks/1/)
 
 ## Week 2 - Arrays
 
@@ -42,10 +33,7 @@ Command-Line Arguments. Cryptography.
 
 Code: [src/week2](src/week2)
 
-Resources:
-
-- [Week 2 Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
-- [CS50x 2025 - Lecture 2 - Arrays](https://www.youtube.com/watch?v=Y8qnryVy5sQ)
+Resource: [CS50x 2025 - Week 2 Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
 
 ## Week 3 - Algorithms
 
@@ -54,10 +42,7 @@ Asymptotic Notation: O, Ω, Θ. Recursion.
 
 Code: [src/week3](src/week3)
 
-Resources:
-
-- [Week 3 Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
-- [CS50x 2025 - Lecture 3 - Algorithms](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
+Resource: [CS50x 2025 - Week 3 Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
 
 ## Week 4 - Memory
 
@@ -66,10 +51,7 @@ File I/O. Images.
 
 Code: [src/week4](src/week4)
 
-Resources:
-
-- [Week 4 Memory](https://cs50.harvard.edu/x/2025/weeks/4/)
-- [CS50x 2025 - Lecture 4 - Memory](https://www.youtube.com/watch?v=kcRdFGbzR1I)
+Resource: [CS50x 2025 - Week 4 Memory](https://cs50.harvard.edu/x/2025/weeks/4/)
 
 ## Week 5 - Data Structures
 
@@ -78,10 +60,7 @@ Hash Tables. Tries.
 
 Code: [src/week5](src/week5)
 
-Resources:
-
-- [Week 5 Data Structures](https://cs50.harvard.edu/x/2025/weeks/5/)
-- [CS50x 2025 - Lecture 5 - Data Structures](https://www.youtube.com/watch?v=aV8LlSmd1E8)
+Resource: [CS50x 2025 - Week 5 Data Structures](https://cs50.harvard.edu/x/2025/weeks/5/)
 
 ## Development
 
