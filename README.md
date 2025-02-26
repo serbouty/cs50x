@@ -2,8 +2,7 @@
 
 Introduction to computer science from Harvard University.
 
-Covers the basics of programming, data structures and algorithms with C.
-Also gives an overview on how computers work under the hood with memory management.
+Available for free as an open course, these lectures provide an overview of common concepts used in programming. The focus here is mainly on data structures and algorithms, with an emphasis on memory usage and efficiency.
 
 ## Week 0 - Scratch
 
