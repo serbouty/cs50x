@@ -2,7 +2,7 @@
 #include "../lib/cs50.c"
 
 /**
- * Comparing strings between them.
+ * Compare a set of strings between them.
  */
 int main(void)
 {

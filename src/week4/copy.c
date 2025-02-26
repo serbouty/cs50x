@@ -4,9 +4,6 @@
 /* Standard library for characters. */
 #include <ctype.h>
 
-/**
- * Copying strings between them.
- */
 int main(void)
 {
     char *s = get_string(NULL, "s: ");

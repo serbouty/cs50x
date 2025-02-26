@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * Write into a file on the system.
+ * Update a file from the terminal.
  */
 int main(void)
 {

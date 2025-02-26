@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    /* Concept of string in C code. */
+    /* Concept of strings. */
     char *s = "HI!";
 
     printf("%p\n", s);

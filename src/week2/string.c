@@ -19,9 +19,10 @@ int main(void)
 
     printf("s: %s\n", s);
 
-    /* s[3] is NUL (00000000) */
+    /* s[3] is NULL (00000000) */
     printf("s[3]: %i %i %i %i\n", s[0], s[1], s[2], s[3]);
 
+    /* Declare an array for two elements. */
     char *words[2];
 
     words[0] = "HI!";
@@ -30,9 +31,9 @@ int main(void)
     printf("w0: %s\n", words[0]);
     printf("w1: %s\n", words[1]);
 
-    /* H */
+    /* Print H. */
     printf("w00: %c\n", words[0][0]);
 
-    /* B */
+    /* Print B. */
     printf("w00: %c\n", words[1][0]);
 }

@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    /* Define a new keyword replacing 'char *'. */
+    /* Declare a new keyword replacing 'char *'. */
     typedef char *string;
 
     string s = "HI!";

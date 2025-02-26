@@ -2,7 +2,7 @@
 #include "../lib/cs50.c"
 
 /**
- * Comparing integers between them.
+ * Compare a pair of integers between them.
  */
 int main(void)
 {

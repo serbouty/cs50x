@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * Compare a pair of integers between them.
+ */
 int main(void)
 {
     int x;

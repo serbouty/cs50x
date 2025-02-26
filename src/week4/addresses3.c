@@ -7,9 +7,12 @@ int main(void)
 {
     const char *s = "HI!";
 
-    printf("%c\n", *s); /* H */
+    /* Print H. */
+    printf("%c\n", *s);
 
-    /* Do math on addresses. */
-    printf("%c\n", *(s + 1)); /* I */
-    printf("%c\n", *(s + 2)); /* ! */
+    /* Print I. */
+    printf("%c\n", *(s + 1));
+
+    /* Print !. */
+    printf("%c\n", *(s + 2));
 }

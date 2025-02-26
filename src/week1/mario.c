@@ -3,7 +3,7 @@
 void print_row(int n);
 
 /**
- * Build elements found in a Mario game.
+ * Build elements found in a Mario game on the prompt.
  */
 int main(void)
 {

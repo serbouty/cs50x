@@ -11,6 +11,9 @@ int main(void)
     return 0;
 }
 
+/**
+ * Prompt the user for an integer.
+ */
 int get_positive_int(void)
 {
     int number;

@@ -5,11 +5,6 @@
  */
 int main(void)
 {
-    /**
-     * Declare a variable, not initialized.
-     *
-     * Contains a garbage value.
-     */
     int n;
 
     /* Prompt for the user. */
