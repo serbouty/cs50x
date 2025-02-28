@@ -2,8 +2,6 @@
 
 Introduction to computer science from Harvard University.
 
-Available for free as an open course, these lectures provide an overview of common concepts used in programming. The focus here is mainly on data structures and algorithms, with an emphasis on memory usage and efficiency.
-
 ## Week 0 - Scratch
 
 Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs.
