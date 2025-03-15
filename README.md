@@ -73,6 +73,10 @@ Resource: [CS50x 2025 - Week 5 Data Structures](https://cs50.harvard.edu/x/2025/
 - [x] Week 3 - Algorithms
 - [x] Week 4 - Memory
 - [x] Week 5 - Data Structures
+- [ ] Week 6 - Python
+- [ ] Week 7 - SQL
+- [ ] Week 8 - HTML, CSS, JavaScript
+- [ ] Week 9 - Flask
 
 ## License
 
