@@ -4,6 +4,7 @@
 # Sources
 *.c                 text diff=cpp
 *.h                 text diff=cpp
+*.sb3               binary
 
 # Configuration
 *.txt               text
