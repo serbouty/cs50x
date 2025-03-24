@@ -6,16 +6,15 @@
 
 <p align="center">
     <a href="" alt="">
-        <img src="https://img.shields.io/badge/c-23-blue?logo=c" /></a>
+        <img src="https://img.shields.io/badge/c-23-blue?style=flat&logo=c" /></a>
     <a href="" alt="">
         <img src="https://img.shields.io/badge/cmake-3.31-blue?style=flat&logo=cmake" /></a>
     <a href="" alt="">
         <img src="https://img.shields.io/badge/python-3.13-yellow?style=flat&logo=python" /></a>
     <a href="" alt="">
-        <img src="https://img.shields.io/badge/license-mit-orange?style=flat" /></a>
+        <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" /></a>
     <a href="" alt="">
-        <img src="https://img.shields.io/badge/status-active-green?style=flat" /></a>
-
+        <img src="https://img.shields.io/badge/status-active-green?style=flat&logo=github" /></a>
 </p>
 
 ## Lectures
