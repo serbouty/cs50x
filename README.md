@@ -1,20 +1,20 @@
-<h1 align="center">CS50x 2025</h1>
+<h1 style="text-align  : center;">CS50x 2025</h1>
 
-<p align="center">
-    <img src="docs/cs50x.svg" height="360" />
+<p style="text-align  : center;">
+    <img src="docs/cs50x.webp" height="484" width="860" alt="" />
 </p>
 
-<p align="center">
-    <a href="" alt="">
-        <img src="https://img.shields.io/badge/c-23-blue?style=flat&logo=c" /></a>
-    <a href="" alt="">
-        <img src="https://img.shields.io/badge/cmake-3.31-blue?style=flat&logo=cmake" /></a>
-    <a href="" alt="">
-        <img src="https://img.shields.io/badge/python-3.13-yellow?style=flat&logo=python" /></a>
-    <a href="" alt="">
-        <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" /></a>
-    <a href="" alt="">
-        <img src="https://img.shields.io/badge/status-active-green?style=flat&logo=github" /></a>
+<p style="text-align  : center;">
+    <a href="">
+        <img src="https://img.shields.io/badge/c-23-blue?style=flat&logo=c" alt="" /></a>
+    <a href="">
+        <img src="https://img.shields.io/badge/cmake-3.31-blue?style=flat&logo=cmake" alt="" /></a>
+    <a href="">
+        <img src="https://img.shields.io/badge/python-3.13-yellow?style=flat&logo=python" alt="" /></a>
+    <a href="">
+        <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="" /></a>
+    <a href="">
+        <img src="https://img.shields.io/badge/status-active-green?style=flat&logo=github" alt="" /></a>
 </p>
 
 ## Lectures
@@ -85,16 +85,16 @@ Lecture: [CS50x 2025 - Lecture 5 - Data Structures](https://cs50.harvard.edu/x/2
 
 ## Roadmap
 
-- [x] ~~Week 0 Scratch~~
-- [x] ~~Week 1 C~~
-- [x] ~~Week 2 Arrays~~
-- [x] ~~Week 3 Algorithms~~
-- [x] ~~Week 4 Memory~~
-- [x] ~~Week 5 Data Structures~~
-- [ ] Week 6 Python
-- [ ] Week 7 SQL
-- [ ] Week 8 HTML, CSS, JavaScript
-- [ ] Week 9 Flask
+- [x] Week 0 - Scratch
+- [x] Week 1 - C
+- [x] Week 2 - Arrays
+- [x] Week 3 - Algorithms
+- [x] Week 4 - Memory
+- [x] Week 5 - Data Structures
+- [ ] Week 6 - Python
+- [ ] Week 7 - SQL
+- [ ] Week 8 - HTML, CSS, JavaScript
+- [ ] Week 9 - Flask
 
 ## License
 
