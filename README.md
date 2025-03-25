@@ -1,10 +1,10 @@
-<h1 style="text-align  : center;">CS50x 2025</h1>
+<h1 align="center">CS50x 2025</h1>
 
-<p style="text-align  : center;">
+<p align="center">
     <img src="docs/cs50x.webp" height="484" width="860" alt="" />
 </p>
 
-<p style="text-align  : center;">
+<p align="center">
     <a href="">
         <img src="https://img.shields.io/badge/c-23-blue?style=flat&logo=c" alt="" /></a>
     <a href="">
