@@ -13,4 +13,4 @@
 
 # Documentation
 *.md                text diff=markdown
-*.webp              binary
+*.png               binary
