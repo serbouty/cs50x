@@ -1,5 +1,5 @@
-# CMake Tools
-build/
-
-# Visual Studio Code
+# VS Code
 .vscode/
+
+# CMake
+build/
