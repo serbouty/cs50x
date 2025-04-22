@@ -33,7 +33,7 @@ int main(void)
 }
 
 /**
- * Print multiple obstacles to a large block.
+ * Print multiple obstacles to obtain a large block.
  */
 void print_row(int n)
 {
