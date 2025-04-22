@@ -32,7 +32,7 @@ int main(void)
         return 1;
     }
 
-    printf("16 bits: %i\n", int_value); /* Precision not represented for an integer.*/
+    printf("32 bits: %i\n", int_value); /* Precision not represented for an integer.*/
     printf("32 bits: %.50f\n", float_value);
     printf("64 bits: %.50f\n", double_value);
 
