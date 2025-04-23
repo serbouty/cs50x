@@ -11,7 +11,7 @@ int main(void)
 
     scanf("%5s", name); /* Fetch the user input. */
 
-    printf("> Hello, %s", name);
+    printf("> Hello, %s\n", name);
 
     return 0;
 }

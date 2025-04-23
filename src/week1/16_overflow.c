@@ -28,7 +28,7 @@ int main(void)
         }
     }
 
-    printf("> You have now $%i.", value); /* Print the final value. */
+    printf("> You have now $%i.\n", value); /* Print the final value. */
 
     return 0;
 }
