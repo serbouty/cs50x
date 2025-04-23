@@ -8,10 +8,10 @@ int main(void)
     /* Access elements on a multidimensional array. */
     for (int i = 0; i < 2; i++)
     {
-        /* Iterate through each elements within an array. */
+        /* Iterate through each elements of an array. */
         for (int j = 0; j < 3; j++)
         {
-            printf("numbers[%i][%i] = %i\n", i, j, numbers[i][j]);
+            printf("> numbers[%i][%i] = %i\n", i, j, numbers[i][j]);
         }
     }
 }

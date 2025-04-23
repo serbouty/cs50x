@@ -11,6 +11,7 @@
  * size: Number of elements currently in the array.
  *
  */
+
 typedef struct
 {
     int capacity;
@@ -41,14 +42,11 @@ typedef struct
  * size():          O(1)
  *
  */
+
 int main(void)
 {
-    /* Initialize an empty array. */
-    dynamic array;
+    dynamic array; /* Initialize an empty array. */
     array.size = 0;
-
-    int index;
-    int value;
 
     /* Allocate enough memory to add four integers. */
     array.capacity = 4;
@@ -62,9 +60,11 @@ int main(void)
     }
 
     /**
-     * Simulate size(): O(1).
+     * size(): O(1).
      */
-    printf("size() = %i\n\n", array.size);
+    printf("> Initial:\n");
+    printf("  > size: %i\n", array.size);
+    printf("  > capacity: %i\n", array.capacity);
 
     /* Add elements in the array: O(1). */
     for (int i = 0; i < array.capacity; i++)
@@ -76,42 +76,46 @@ int main(void)
     }
 
     /* Check array state. */
-    printf("Insert:");
+    printf("> Insert:");
     for (int i = 0; i < array.capacity; i++)
     {
         printf(" %i", array.ptr[i]);
     }
     printf("\n");
-    printf("size() = %i\n\n", array.size);
+    printf("  > size: %i\n", array.size);
+    printf("  > capacity: %i\n", array.capacity);
 
     /**
-     * Simulate get(i): O(1).
+     * get(index): O(1).
      */
+    int index;
     index = 0;
 
     int getValueForIndexZero = array.ptr[index];
-    printf("get(0) = %i\n\n", getValueForIndexZero);
+    printf("> get(0) = %i\n", getValueForIndexZero);
 
     /**
-     * Simulate set(i, val): O(1).
+     * set(index, value): O(1).
      */
+    int value;
     value = 5;
 
     array.ptr[index] = value;
-    printf("set(0, 5) =");
+    printf("> set(0, 5) =");
     for (int i = 0; i < array.capacity; i++)
     {
         printf(" %i", array.ptr[i]);
     }
-    printf("\n\n");
+    printf("\n");
 
     /**
-     * Simulate pushBack(val): O(n).
+     * pushBack(value): O(n).
      */
     value = 6;
 
-    printf("size() = %i\n", array.size);
-    printf("capacity = %i\n", array.capacity);
+    printf("  > size: %i\n", array.size);
+    printf("  > capacity: %i\n", array.capacity);
+
     if (array.size == array.capacity)
     {
         /* Update the capacity. */
@@ -132,34 +136,33 @@ int main(void)
         /* Set the pointer to the new array. */
         array.ptr = new_array;
 
-        printf("New:");
+        printf("> Update:");
         for (int i = 0; i < 5; i++)
         {
             printf(" %i", array.ptr[i]);
         }
         printf("\n");
-        printf("size() = %i\n", array.size);
-        printf("capacity = %i\n\n", array.capacity);
+        printf("  > size: %i\n", array.size);
+        printf("  > capacity: %i\n", array.capacity);
     }
 
     /* Push the element at the end of the array. */
     array.ptr[array.size] = value;
 
-    printf("pushBack():");
+    printf("> pushBack():");
     for (int i = 0; i < array.capacity; i++)
     {
         printf(" %i", array.ptr[i]);
     }
     printf("\n");
     array.size++;
-    printf("size() = %i\n\n", array.size);
+    printf("  > size: %i\n", array.size);
+    printf("  > capacity: %i\n", array.capacity);
 
     /**
-     * Simulate removeElement(i): O(n).
+     * removeElement(index): O(n).
      */
     index = 2;
-
-    printf("size() = %i\n", array.size);
 
     /* Start from the index to remove. */
     for (int i = index; i < array.size; i++)
@@ -171,14 +174,14 @@ int main(void)
     /* Update the size. */
     array.size--;
 
-    printf("removeElement(2):");
+    printf("> removeElement(2):");
     for (int i = 0; i < 5; i++)
     {
         printf(" %i", array.ptr[i]);
     }
     printf("\n");
-    printf("size() = %i\n", array.size);
-    printf("capacity = %i\n\n", array.capacity);
+    printf("  > size: %i\n", array.size);
+    printf("  > capacity: %i\n", array.capacity);
 
     free(array.ptr);
 }

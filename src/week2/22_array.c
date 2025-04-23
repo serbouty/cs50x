@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * Static Array:
+ * Array:
  *
  * Contiguous area of memory
  * consisting of equal-size elements indexed
- * by contiguous integers.
+ * by contiguous data of the same type.
  *
  * Runtimes:
  *
@@ -19,13 +19,14 @@
  * Remove from the middle: O(n)
  *
  */
+
 int main(void)
 {
     /* Initialize an array with a fixed length. */
     int results[3];
 
     /* Insert at the end: O(1). */
-    printf("Insert:");
+    printf("> Insert:");
     for (int i = 0; i < 3; i++)
     {
         results[i] = i;
@@ -35,9 +36,11 @@ int main(void)
 
     /* Constant-time access to any element: 0(1). */
     int target = results[0];
-    printf("Search: %i", target);
+    printf("> Search: %i", target);
+
     target = results[1];
     printf(" %i", target);
+
     target = results[2];
     printf(" %i\n", target);
 }
