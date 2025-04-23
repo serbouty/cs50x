@@ -17,17 +17,6 @@
         <img src="https://img.shields.io/badge/status-active-green?style=flat&logo=github" alt="Project Status Active" /></a>
 </p>
 
-## Resources
-
-- [Harvard University : CS50x 2025](https://cs50.harvard.edu/x/2025/)
-- [Harvard University : CS50's Library for C](https://github.com/cs50/libcs50)
-- [Week 0 : Scratch](https://cs50.harvard.edu/x/2025/weeks/0/)
-- [Week 1 : C](https://cs50.harvard.edu/x/2025/weeks/1/)
-- [Week 2 : Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
-- [Week 3 : Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
-- [Week 4 : Memory](https://cs50.harvard.edu/x/2025/weeks/4/)
-- [Week 5 : Data Structures](https://cs50.harvard.edu/x/2025/weeks/5/)
-
 ## Lecture 0 : Scratch
 
 Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs.
@@ -74,6 +63,24 @@ Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees.
 Hash Tables. Tries.
 
 Snippets : [src/week5](src/week5)
+
+## Resource
+
+### Harvard University
+
+- [Harvard University : CS50x 2025](https://cs50.harvard.edu/x/2025/)
+- [Harvard University : CS50's Library for C](https://github.com/cs50/libcs50)
+- [Lecture 0 : Scratch](https://cs50.harvard.edu/x/2025/weeks/0/)
+- [Lecture 1 : C](https://cs50.harvard.edu/x/2025/weeks/1/)
+- [Lecture 2 : Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
+- [Lecture 3 : Algorithms](https://cs50.harvard.edu/x/2025/weeks/3/)
+- [Lecture 4 : Memory](https://cs50.harvard.edu/x/2025/weeks/4/)
+- [Lecture 5 : Data Structures](https://cs50.harvard.edu/x/2025/weeks/5/)
+
+### Others
+
+- [Microsoft Learn : C Language Documentation](https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170)
+- [UC San Diego : Data Structures](https://www.coursera.org/learn/data-structures)
 
 ## Roadmap
 
