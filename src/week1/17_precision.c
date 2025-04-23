@@ -7,12 +7,12 @@ int main(void)
 {
     /* Prompt the user for x. */
     int x;
-    printf("x: ");
+    printf("> x: ");
     scanf("%i", &x);
 
     /* Prompt the user for y. */
     int y;
-    printf("y: ");
+    printf("> y: ");
     scanf("%i", &y);
 
     int int_value;
@@ -32,9 +32,9 @@ int main(void)
         return 1;
     }
 
-    printf("32 bits: %i\n", int_value); /* Precision not represented for an integer.*/
-    printf("32 bits: %.50f\n", float_value);
-    printf("64 bits: %.50f\n", double_value);
+    printf("> 32 bits: %i\n", int_value); /* Precision not represented for an integer.*/
+    printf("> 32 bits: %.50f\n", float_value);
+    printf("> 64 bits: %.50f\n", double_value);
 
     return 0;
 }
