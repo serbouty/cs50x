@@ -14,7 +14,7 @@ int main(void)
 
     while (condition) /* Accept with 'y' enough times to provoke an integer overflow. */
     {
-        printf("> Here's $%i. Double it? ", value); /* Print the current value. */
+        printf("Here's $%i. Double it? ", value); /* Print the current value. */
 
         scanf(" %c", &answer); /* Escape sequence ending scanf, whitespace mandatory. */
 
@@ -28,7 +28,7 @@ int main(void)
         }
     }
 
-    printf("> You have now $%i.\n", value); /* Print the final value. */
+    printf("You have now $%i.\n", value); /* Print the final value. */
 
     return 0;
 }

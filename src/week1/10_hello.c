@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    printf("> hello, world\n"); /* Print formatted characters on the terminal. */
+    printf("hello, world\n"); /* Print formatted characters on the terminal. */
 
     return 0; /* Success.*/
 }

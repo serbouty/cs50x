@@ -25,7 +25,7 @@ int get_positive_int(void)
 
     do
     {
-        printf("> How many times? ");
+        printf("How many times? ");
         scanf(" %i", &number);
     } while (number < 1); /* Ask until number is positive. */
 
@@ -37,6 +37,6 @@ void meow(int times)
 {
     for (int i = 0; i < times; i++)
     {
-        printf("> Meow\n");
+        printf("Meow\n");
     }
 }
