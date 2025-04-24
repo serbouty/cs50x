@@ -24,10 +24,10 @@ int main(void)
 
     for (int i = 0; i < n; i++) /* Prompt the user for n scores. */
     {
-        printf("> Enter a score: ");
+        printf("Enter a score: ");
         scanf("%i", &scores[i]);
     }
 
     /* Calculate then print an average. */
-    printf("> Average: %f\n", (scores[0] + scores[1] + scores[2]) / 3.0);
+    printf("Average: %f\n", (scores[0] + scores[1] + scores[2]) / 3.0);
 }

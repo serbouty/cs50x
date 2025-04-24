@@ -26,7 +26,7 @@ int main(void)
     int results[3];
 
     /* Insert at the end: O(1). */
-    printf("> Insert:");
+    printf("Insert:");
     for (int i = 0; i < 3; i++)
     {
         results[i] = i;
@@ -36,7 +36,7 @@ int main(void)
 
     /* Constant-time access to any element: 0(1). */
     int target = results[0];
-    printf("> Search: %i", target);
+    printf("Search: %i", target);
 
     target = results[1];
     printf(" %i", target);

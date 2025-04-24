@@ -8,8 +8,6 @@ int main(void)
 {
     const char *string = "Hello";
 
-    printf("> ");
-
     for (int i = 0, n = strlen(string); i < n; i++)
     {
         if (string[i] >= 'a' && string[i] <= 'z') /* Compare ASCII values. */
@@ -21,6 +19,8 @@ int main(void)
             printf("%c", string[i]); /* Print value if upercase. */
         }
     }
+
+    printf("\n");
 
     return 0;
 }

@@ -12,8 +12,8 @@
  * $ ./greet <name>
  *
  * output:
- * > running <program>
- * > hello, <name>
+ * Program: <program>
+ * Hello, <name>
  */
 int main(int argc, char *argv[])
 {
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    printf("> running %s\n", argv[0]); /* Name of the program by convention. */
+    printf("Program: %s\n", argv[0]); /* Name of the program by convention. */
 
-    printf("> hello, %s\n", argv[1]); /* Print with the first argument. */
+    printf("Hello, %s\n", argv[1]); /* Print with the first argument. */
 }

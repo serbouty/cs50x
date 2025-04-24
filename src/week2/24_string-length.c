@@ -8,7 +8,7 @@ int main(void)
 
     int length = string_length(string);
 
-    printf("> Length: %i\n", length);
+    printf("Length: %i\n", length);
 
     return 0;
 }
@@ -22,12 +22,12 @@ int string_length(char const *string)
 
     while (string[n] != '\0') /* Last element is NULL, ending the string. */
     {
-        printf("> %i: %c\n", n, string[n]); /* name[n] = character */
+        printf("%i: %c\n", n, string[n]); /* name[n] = character */
 
         n++;
     }
 
-    printf("> %i: %c\n", n, string[n]); /* name[n] = NULL */
+    printf("%i: %c\n", n, string[n]); /* name[n] = NULL */
 
     return n;
 }

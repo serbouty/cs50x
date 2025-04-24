@@ -62,9 +62,9 @@ int main(void)
     /**
      * size(): O(1).
      */
-    printf("> Initial:\n");
-    printf("  > size: %i\n", array.size);
-    printf("  > capacity: %i\n", array.capacity);
+    printf("Initial:\n");
+    printf("  size: %i\n", array.size);
+    printf("  capacity: %i\n", array.capacity);
 
     /* Add elements in the array: O(1). */
     for (int i = 0; i < array.capacity; i++)
@@ -76,14 +76,14 @@ int main(void)
     }
 
     /* Check array state. */
-    printf("> Insert:");
+    printf("Insert:");
     for (int i = 0; i < array.capacity; i++)
     {
         printf(" %i", array.ptr[i]);
     }
     printf("\n");
-    printf("  > size: %i\n", array.size);
-    printf("  > capacity: %i\n", array.capacity);
+    printf("  size: %i\n", array.size);
+    printf("  capacity: %i\n", array.capacity);
 
     /**
      * get(index): O(1).
@@ -92,7 +92,7 @@ int main(void)
     index = 0;
 
     int getValueForIndexZero = array.ptr[index];
-    printf("> get(0) = %i\n", getValueForIndexZero);
+    printf("get(0) = %i\n", getValueForIndexZero);
 
     /**
      * set(index, value): O(1).
@@ -101,7 +101,7 @@ int main(void)
     value = 5;
 
     array.ptr[index] = value;
-    printf("> set(0, 5) =");
+    printf("set(0, 5) =");
     for (int i = 0; i < array.capacity; i++)
     {
         printf(" %i", array.ptr[i]);
@@ -113,8 +113,8 @@ int main(void)
      */
     value = 6;
 
-    printf("  > size: %i\n", array.size);
-    printf("  > capacity: %i\n", array.capacity);
+    printf("  size: %i\n", array.size);
+    printf("  capacity: %i\n", array.capacity);
 
     if (array.size == array.capacity)
     {
@@ -136,28 +136,28 @@ int main(void)
         /* Set the pointer to the new array. */
         array.ptr = new_array;
 
-        printf("> Update:");
+        printf("Update:");
         for (int i = 0; i < 5; i++)
         {
             printf(" %i", array.ptr[i]);
         }
         printf("\n");
-        printf("  > size: %i\n", array.size);
-        printf("  > capacity: %i\n", array.capacity);
+        printf("  size: %i\n", array.size);
+        printf("  capacity: %i\n", array.capacity);
     }
 
     /* Push the element at the end of the array. */
     array.ptr[array.size] = value;
 
-    printf("> pushBack():");
+    printf("pushBack():");
     for (int i = 0; i < array.capacity; i++)
     {
         printf(" %i", array.ptr[i]);
     }
     printf("\n");
     array.size++;
-    printf("  > size: %i\n", array.size);
-    printf("  > capacity: %i\n", array.capacity);
+    printf("  size: %i\n", array.size);
+    printf("  capacity: %i\n", array.capacity);
 
     /**
      * removeElement(index): O(n).
@@ -174,14 +174,16 @@ int main(void)
     /* Update the size. */
     array.size--;
 
-    printf("> removeElement(2):");
+    printf("removeElement(2):");
     for (int i = 0; i < 5; i++)
     {
         printf(" %i", array.ptr[i]);
     }
     printf("\n");
-    printf("  > size: %i\n", array.size);
-    printf("  > capacity: %i\n", array.capacity);
+    printf("  size: %i\n", array.size);
+    printf("  capacity: %i\n", array.capacity);
 
     free(array.ptr);
+
+    return 0;
 }
