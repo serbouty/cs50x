@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/badge/cmake-3.31-blue?style=flat&logo=cmake" alt="CMake Version 3" /></a>
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="License MIT" /></a>
-    <a href="">
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.1">
         <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Project Status Complete" /></a>
 </p>
 
