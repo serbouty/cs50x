@@ -1,17 +1,16 @@
 #include <ctype.h>
 #include <stdio.h>
+#include <stdlib.h> /* Standard library for memory management. */
 #include <string.h>
-#include "../lib/cs50.c"
 
-/* Standard library for memory management. */
-#include <stdlib.h>
+#include "../cs50/cs50.c"
 
 /**
  * Allocate memory for the copy of a string.
  */
 int main(void)
 {
-    char *s = get_string(NULL, "s: ");
+    char *s = get_string(NULL, "string: ");
 
     /**
      * Allocate enough memory to handle the new string.
@@ -26,21 +25,23 @@ int main(void)
         return 1;
     }
 
-    /* 'strcpy' alternative, manually assign elements to the new string. */
-    for (int i = 0, n = (int)strlen(s); i <= n; i++) /* <= n for /0 */
+    /* 'strcpy' alternative, manually assign elements to a new string. */
+    for (int i = 0, n = (int)strlen(s); i <= n; i++)
     {
         t[i] = s[i];
     }
 
-    /* Don't touch the memory if the length is 0 (NULL). */
+    /* Cannot use the memory if the length is 0 (NULL). */
     if (strlen(t) > 0)
     {
         t[0] = (char)toupper(t[0]);
     }
 
-    printf("s: %s\n", s);
-    printf("t: %s\n", t);
+    printf("lowercase s: %s\n", s);
+    printf("uppercase t: %s\n", t);
 
-    /* Avoid memory leak by freeing the resource when the process is done. */
+    /* Avoid memory leak by freeing the resource when a process is done. */
     free(t);
+
+    return 0;
 }

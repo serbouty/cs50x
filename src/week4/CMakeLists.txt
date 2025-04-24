@@ -1,25 +1,13 @@
-add_executable(addresses0 addresses0.c)
+add_executable(addresses 40_addresses.c)
 
-add_executable(addresses1 addresses1.c)
+add_executable(compare-memory 41_compare-memory.c)
 
-add_executable(addresses2 addresses2.c)
+add_executable(copy 42_copy.c)
 
-add_executable(addresses3 addresses3.c)
+add_executable(copy-memory 43_copy-memory.c)
 
-add_executable(addresses4 addresses4.c)
+add_executable(scan 45_scan.c)
 
-add_executable(compare1 compare1.c)
+add_executable(file-io 46_file-io.c)
 
-add_executable(compare2 compare2.c)
-
-add_executable(compare3 compare3.c)
-
-add_executable(copy copy.c)
-
-add_executable(get_int get_int.c)
-
-add_executable(memory memory.c)
-
-add_executable(phone_book1 phone_book1.c)
-
-add_executable(swap swap.c)
+add_executable(swap 44_swap.c)

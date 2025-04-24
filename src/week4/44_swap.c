@@ -14,6 +14,11 @@ void swap(int *a, int *b);
  *
  * Calling 'malloc' too many times result to an heap overflow.
  * Calling functions too many times result to a stack overflow.
+ *
+ */
+
+/**
+ * Swapping two values through references.
  */
 int main(void)
 {
@@ -22,16 +27,18 @@ int main(void)
 
     printf("x i %i, y is %i\n", x, y);
 
-    /* Passing addresses from 'x' and 'y' as references. */
+    /* Passing addresses from x and y as references. */
     swap(&x, &y);
 
     printf("x i %i, y is %i\n", x, y);
 }
 
-/* Passing by reference.*/
+/**
+ * Passing by reference.
+ */
 void swap(int *a, int *b)
 {
-    int tmp = *a; /* save a */
-    *a = *b;      /* replace a with b */
-    *b = tmp;     /* replace b with save a */
+    int tmp = *a; /* Backup the first value. */
+    *a = *b;      /* Replace a with b. */
+    *b = tmp;     /* Replace b with the backup. */
 }

@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * 'get_int' implementation from CS50 library.
+ * get_int() alternative from CS50's library.
  */
 int main(void)
 {
     int n;
 
-    /* Prompt for the user. */
     printf("n: ");
 
     /**
@@ -17,6 +16,5 @@ int main(void)
      */
     scanf("%i", &n);
 
-    /* Print the value. */
     printf("n: %i\n", n);
 }
