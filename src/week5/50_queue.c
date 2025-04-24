@@ -5,23 +5,22 @@ typedef struct
     char *name;
 } person;
 
-/* Encapsulate a data type into another data type. */
 typedef struct
 {
     person people[50];
-
-    /* Keeping tracks of valid values. */
     int size;
 } queue;
 
 /**
- * Abstract data type.
- *
- * FIFO data type, First In First Out.
+ * FIFO - First In First Out.
  *
  * Enqueue to put elements into the queue.
  * Dequeue to remove elements from the queue.
  *
+ */
+
+/**
+ * Queue example.
  */
 int main(void)
 {
@@ -49,12 +48,13 @@ int main(void)
     current_queue.people[4].name = "LastUser";
     current_queue.size++;
 
-    /* Queue with five elements. */
-    printf("Queue:");
+    printf("Enqueue:");
+
     for (int i = 0; i < 5; i++)
     {
         printf(" %s", current_queue.people[i].name);
     }
+
     printf("\n");
     printf("Size: %i\n", current_queue.size);
 
@@ -64,24 +64,22 @@ int main(void)
     queue new_queue;
     new_queue.size = current_queue.size;
 
-    /* Remove the first element. */
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 4; i++) /* Remove the first element. */
     {
         new_queue.people[i].name = current_queue.people[i + 1].name;
     }
 
-    /* Update the size. */
-    new_queue.size--;
+    new_queue.size--; /* Update the size. */
 
-    /* Update the queue. */
-    current_queue = new_queue;
+    current_queue = new_queue; /* Update the queue. */
 
-    /* Queue with four elements. */
-    printf("Queue:");
+    printf("Dequeue:");
+
     for (int i = 0; i < 4; i++)
     {
         printf(" %s", current_queue.people[i].name);
     }
+
     printf("\n");
     printf("Size: %i\n", current_queue.size);
 

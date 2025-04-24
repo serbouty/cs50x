@@ -17,7 +17,6 @@ int main(void)
         return 1;
     }
 
-    /* Initialize the array. */
     list[0] = 1;
     list[1] = 2;
     list[2] = 3;
@@ -44,21 +43,18 @@ int main(void)
         tmp[i] = list[i];
     }
 
-    /* Add the value needed. */
-    tmp[3] = 4;
+    tmp[3] = 4; /* Add the value needed. */
 
-    /* Erase the old array from memory. */
-    free(list);
+    free(list); /* Erase the old array from memory. */
 
-    /* Process complete. */
-    list = tmp;
+    list = tmp; /* Process complete. */
 
-    /* Print the result. */
     for (int i = 0; i < 4; i++)
     {
         printf("%i\n", list[i]);
     }
 
-    /* Time passes, the new list is not needed anymore. */
-    free(list);
+    free(list); /* Time passes, the new list is not needed anymore. */
+
+    return 0;
 }

@@ -2,10 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Protype of the hash function. */
 int hash(const char *word);
 
-/* Define a linked element. */
 typedef struct node
 {
     char *name;
@@ -21,11 +19,9 @@ typedef struct node
  */
 int main(void)
 {
-    /* Initialize an hash table for twenty-six nodes. */
-    node *table[26];
+    node *table[26]; /* Initialize an hash table for twenty-six nodes. */
 
-    /* Add an element. */
-    node *list = malloc(sizeof(node));
+    node *list = malloc(sizeof(node)); /* Add an element. */
 
     if (list == NULL)
     {
@@ -35,20 +31,19 @@ int main(void)
 
     list->name = "Mario";
 
-    /* Generate the correct key from the hash function. */
-    int id = hash(list->name);
+    int id = hash(list->name); /* Generate the correct key from the hash function. */
+
     list->number = &id;
 
-    /* Map the element with the hash table. */
-    table[id] = list;
+    table[id] = list; /* Map the element with the hash table. */
 
-    /* Access data from the hash table. */
-    const char *data = table[id]->name;
+    const char *data = table[id]->name; /* Access data from the hash table. */
 
     printf("Data: %s", data);
 
-    /* Free resource from memory. */
-    free(list);
+    free(list); /* Free resource from memory. */
+
+    return 0;
 }
 
 /**

@@ -1,11 +1,11 @@
-add_executable(hash_table hash_table.c)
+add_executable(hash-table 55_hash-table.c)
 
-add_executable(linked_list linked_list.c)
+add_executable(linked-list 54_linked-list.c)
 
-add_executable(queue queue.c)
+add_executable(queue 50_queue.c)
 
-add_executable(resize0 resize0.c)
+add_executable(resize-manual 52_resize-manual.c)
 
-add_executable(resize1 resize1.c)
+add_executable(resize-memory 53_resize-memory.c)
 
-add_executable(stack stack.c)
+add_executable(stack 51_stack.c)

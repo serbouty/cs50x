@@ -8,11 +8,9 @@
  */
 typedef struct node
 {
-    /* Data of the node. */
-    int number;
+    int number; /* Data of the node. */
 
-    /* Pointer linked to the next piece of memory. */
-    struct node *next;
+    struct node *next; /* Pointer linked to the next piece of memory. */
 } node;
 
 /**
@@ -20,23 +18,19 @@ typedef struct node
  */
 int main(void)
 {
-    /* Pointer for the first node of the list. */
-    node *list = NULL;
+    node *list = NULL; /* Pointer for the first node of the list. */
 
     for (int i = 0; i < 3; i++)
     {
-        /* Create a new node. */
-        node *n = malloc(sizeof(node));
+        node *n = malloc(sizeof(node)); /* Create a new node. */
 
-        /* Sanity check. */
-        if (n == NULL)
+        if (n == NULL) /* Sanity check. */
         {
             free(list);
             return 1;
         }
 
-        /* Arrow to access the member through the address. */
-        n->number = i + 1;
+        n->number = i + 1; /* Arrow to access the member through the address. */
 
         /**
          * Link the current node with the previous one.
@@ -45,20 +39,19 @@ int main(void)
          */
         n->next = list;
 
-        /* Update the first node with the last node created. */
-        list = n;
+        list = n; /* Update the first node with the last node created. */
     }
 
-    /* Start the loop with the first node. */
-    int loop = 0;
+    int loop = 0; /* Start the loop with the first node. */
+
     for (node *ptr = list; ptr != NULL; ptr = ptr->next)
     {
         loop++;
         printf("Node %i = %i\n", loop, ptr->number);
     }
 
-    /* Free the memory. */
-    node *ptr = list;
+    node *ptr = list; /* Free the memory. */
+
     while (ptr != NULL)
     {
         /* Keep track of the next address before deleting the current node. */
