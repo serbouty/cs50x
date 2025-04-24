@@ -14,7 +14,7 @@
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="License MIT" /></a>
     <a href="">
-        <img src="https://img.shields.io/badge/status-active-green?style=flat&logo=github" alt="Project Status Active" /></a>
+        <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Project Status Complete" /></a>
 </p>
 
 ## Lecture 0 : Scratch
@@ -68,8 +68,8 @@ Snippets : [src/week5](src/week5)
 
 ### Harvard University
 
-- [Harvard University : CS50x 2025](https://cs50.harvard.edu/x/2025/)
-- [Harvard University : CS50's Library for C](https://github.com/cs50/libcs50)
+- [CS50x 2025](https://cs50.harvard.edu/x/2025/)
+- [CS50's Library for C](https://github.com/cs50/libcs50)
 - [Lecture 0 : Scratch](https://cs50.harvard.edu/x/2025/weeks/0/)
 - [Lecture 1 : C](https://cs50.harvard.edu/x/2025/weeks/1/)
 - [Lecture 2 : Arrays](https://cs50.harvard.edu/x/2025/weeks/2/)
