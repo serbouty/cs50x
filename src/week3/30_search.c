@@ -28,19 +28,22 @@
  * Θ(1)
  *
  */
+
+/**
+ * Search a number from an unordered list.
+ */
 int main(void)
 {
     int numbers[] = {20, 500, 10, 5, 100, 1, 50};
 
-    /* Search a number from the unordered list above. */
     int n;
+
     printf("Number: ");
     scanf("%i", &n);
 
     int steps = 0;
 
-    /* Common paradigm for linear search. */
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 7; i++) /* Common paradigm for linear search. */
     {
         steps++;
 
@@ -53,6 +56,5 @@ int main(void)
 
     printf("Not found, %i steps.\n", steps);
 
-    /* Positive integer mandatory when dealing with errors. */
-    return 1;
+    return 1; /* Positive integer mandatory when dealing with errors. */
 }

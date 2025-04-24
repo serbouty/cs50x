@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+/* Structure defining a person. */
 typedef struct
 {
     char *name;
@@ -25,16 +26,19 @@ int main(void)
 
     const char *input = "John";
 
+    printf("Searching John number...\n");
+
     for (int i = 0; i < 3; i++)
     {
         /* Compare the input with existing names. */
         if (strcmp(people[i].name, input) == 0)
         {
-            printf("Found %s\n", people[i].number);
+            printf("Found: %s\n", people[i].number);
             return 0;
         }
     }
 
-    printf("Not found\n");
+    printf("Not found.\n");
+
     return 1;
 }

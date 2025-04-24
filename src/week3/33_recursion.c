@@ -16,8 +16,7 @@ int main(void)
 
 void draw(int n)
 {
-    /* Always stop recursion to avoid an infinite loop. */
-    if (n <= 0)
+    if (n <= 0) /* Always stop recursion to avoid an infinite loop. */
     {
         return;
     }

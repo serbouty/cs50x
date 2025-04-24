@@ -21,6 +21,7 @@ void draw(int n)
         {
             printf("#");
         }
+
         printf("\n");
     }
 }
