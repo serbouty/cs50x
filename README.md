@@ -1,22 +1,22 @@
 <h1 align="center">CS50x 2025</h1>
 
 <p align="center">
-    <img src="docs/logo_harvard.png" width="370" height="359" alt="Logo Harvard" />
+    <img src="docs/logo_harvard.png" width="381" height="370" alt="Logo Harvard" />
 </p>
 
 <p align="center">
     <a href="https://en.cppreference.com/w/c/23">
-        <img src="https://img.shields.io/badge/23-blue?style=flat&logo=c" alt="C Standard 23" /></a>
+        <img src="https://img.shields.io/badge/23-blue?style=flat&logo=c" alt="C Version 23" /></a>
     <a href="https://gcc.gnu.org/gcc-14/">
         <img src="https://img.shields.io/badge/gcc-14.2-blue?style=flat&logo=c" alt="GCC Version 14" /></a>
     <a href="https://cmake.org/cmake/help/v3.31/">
         <img src="https://img.shields.io/badge/cmake-3.31-blue?style=flat&logo=c" alt="CMake Version 3" /></a>
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="License MIT" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.3">
-        <img src="https://img.shields.io/badge/release-1.1.3-white?style=flat&logo=github" alt="Release 1.1.3" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.3">
-        <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Project Status Complete" /></a>
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.4">
+        <img src="https://img.shields.io/badge/release-1.1.4-white?style=flat&logo=github" alt="Release 1.1.4" /></a>
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.4">
+        <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Status Complete" /></a>
 </p>
 
 ## Lecture 0 : Scratch
