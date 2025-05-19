@@ -1,34 +1,47 @@
-<h1 align="center">CS50x 2025</h1>
+<h1 style="text-align: center;">CS50x 2025</h1>
 
-<p align="center">
-    <img src="docs/logo_harvard.png" width="381" height="370" alt="Logo Harvard" />
+<p style="text-align: center; padding: 10px">
+    <img src="docs/logo-harvard.png" width="381" height="370" alt="Logo Harvard" />
 </p>
 
-<p align="center">
+<p style="text-align: center;">
     <a href="https://en.cppreference.com/w/c/23">
-        <img src="https://img.shields.io/badge/23-blue?style=flat&logo=c" alt="C Version 23" /></a>
+        <img src="https://img.shields.io/badge/23-blue?style=flat&logo=c" alt="C 23" /></a>
     <a href="https://gcc.gnu.org/gcc-14/">
-        <img src="https://img.shields.io/badge/gcc-14.2-blue?style=flat&logo=c" alt="GCC Version 14" /></a>
+        <img src="https://img.shields.io/badge/gcc-14-blue?style=flat&logo=c" alt="GCC 14" /></a>
     <a href="https://cmake.org/cmake/help/v3.31/">
-        <img src="https://img.shields.io/badge/cmake-3.31-blue?style=flat&logo=c" alt="CMake Version 3" /></a>
+        <img src="https://img.shields.io/badge/cmake-3-blue?style=flat&logo=c" alt="CMake 3" /></a>
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="License MIT" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.4">
-        <img src="https://img.shields.io/badge/release-1.1.4-white?style=flat&logo=github" alt="Release 1.1.4" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.4">
-        <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Status Complete" /></a>
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.5">
+        <img src="https://img.shields.io/badge/version-1.1.5-white?style=flat&logo=github" alt="Version 1.1.5" /></a>
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.0">
+        <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Complete" /></a>
 </p>
 
-## Lecture 0 : Scratch
+## Installation
+
+### Visual Studio Code with GitHub Codespaces
+
+- [Visual Studio Code for CS50](https://cs50.readthedocs.io/cs50.dev/)
+
+### Visual Studio Code with Windows
+
+1. Install Visual Studio Code, then follow [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) until your installation is [checked](https://code.visualstudio.com/docs/cpp/config-mingw#_check-your-mingw-installation).
+2. Run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-cmake` on **MSYS2 UCRT64** console.
+3. Install the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension in Visual Studio Code., set the kit to **GCC** when asked.
+4. You can now build, debug or launch executables in the **CMake Project Outline**.
+
+## Content
+
+### Lecture 0 : Scratch
 
 Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs.
 Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB.Abstraction.
 Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments,
 Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
 
-Snippets : [src/week0](src/week0)
-
-## Lecture 1 : C
+### Lecture 1 : C
 
 C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studio Code.
 Syntax Highlighting. Escape Sequences. Header Files. Libraries. Manual Pages. Types.
@@ -36,39 +49,39 @@ Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI).
 Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow.
 Floating-Point Imprecision.
 
-Snippets : [src/week1](src/week1)
+Code : [src/week1](src/week1)
 
-## Lecture 2 : Arrays
+### Lecture 2 : Arrays
 
 Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings.
 Command-Line Arguments. Cryptography.
 
-Snippets : [src/week2](src/week2)
+Code : [src/week2](src/week2)
 
-## Lecture 3 : Algorithms
+### Lecture 3 : Algorithms
 
 Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort.
 Asymptotic Notation: O, Ω, Θ. Recursion.
 
-Snippets : [src/week3](src/week3)
+Code : [src/week3](src/week3)
 
-## Lecture 4 : Memory
+### Lecture 4 : Memory
 
 Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow.
 File I/O. Images.
 
-Snippets : [src/week4](src/week4)
+Code : [src/week4](src/week4)
 
-## Lecture 5 : Data Structures
+### Lecture 5 : Data Structures
 
 Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees.
 Hash Tables. Tries.
 
-Snippets : [src/week5](src/week5)
+Code : [src/week5](src/week5)
 
 ## Support
 
-### Harvard University
+### Harvard
 
 - [CS50x 2025](https://cs50.harvard.edu/x/2025/)
 - [CS50's Library for C](https://github.com/cs50/libcs50)
