@@ -1,10 +1,22 @@
-<h1 style="text-align: center;">CS50x 2025</h1>
+<style type="text/css"> 
+.logo {
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+</style>
 
-<p style="text-align: center; padding: 10px">
-    <img src="assets/logo-harvard.png" width="381" height="370" alt="Logo Harvard" />
+<h1>CS50x 2025</h1>
+
+<p>
+    <img class="logo" src="assets/logo-harvard.png" width="381" height="370" alt="Logo Harvard" />
 </p>
 
-<p style="text-align: center;">
+<p>
     <a href="https://en.cppreference.com/w/c/23">
         <img src="https://img.shields.io/badge/23-blue?style=flat&logo=c" alt="C 23" /></a>
     <a href="https://gcc.gnu.org/gcc-14/">
