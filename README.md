@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">CS50x 2025</h1>
 
 <p style="text-align: center; padding: 10px">
-    <img src="docs/logo-harvard.png" width="381" height="370" alt="Logo Harvard" />
+    <img src="assets/logo-harvard.png" width="381" height="370" alt="Logo Harvard" />
 </p>
 
 <p style="text-align: center;">
@@ -13,8 +13,8 @@
         <img src="https://img.shields.io/badge/cmake-3-blue?style=flat&logo=c" alt="CMake 3" /></a>
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="License MIT" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.1.5">
-        <img src="https://img.shields.io/badge/version-1.1.5-white?style=flat&logo=github" alt="Version 1.1.5" /></a>
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.0">
+        <img src="https://img.shields.io/badge/version-1.2.0-white?style=flat&logo=github" alt="Version 1.2.0" /></a>
     <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.0">
         <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Complete" /></a>
 </p>
@@ -49,35 +49,35 @@ Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI).
 Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow.
 Floating-Point Imprecision.
 
-Code : [src/week1](src/week1)
+Code : [src/lecture1](src/lecture1)
 
 ### Lecture 2 : Arrays
 
 Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings.
 Command-Line Arguments. Cryptography.
 
-Code : [src/week2](src/week2)
+Code : [src/lecture2](src/lecture2)
 
 ### Lecture 3 : Algorithms
 
 Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort.
 Asymptotic Notation: O, Ω, Θ. Recursion.
 
-Code : [src/week3](src/week3)
+Code : [src/lecture3](src/lecture3)
 
 ### Lecture 4 : Memory
 
 Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow.
 File I/O. Images.
 
-Code : [src/week4](src/week4)
+Code : [src/lecture4](src/lecture4)
 
 ### Lecture 5 : Data Structures
 
 Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees.
 Hash Tables. Tries.
 
-Code : [src/week5](src/week5)
+Code : [src/lecture5](src/lecture5)
 
 ## Support
 
