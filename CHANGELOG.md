@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.5](https://github.com/serbouty/cs50x/releases/tag/v1.1.5) - 2025-05-19
+
+### Changed
+
+- Update CHANGELOG.
+- Update README.
+
+### Removed
+
+- Remove binaries created on Scratch.
+
 ## [1.1.4](https://github.com/serbouty/cs50x/releases/tag/v1.1.4) - 2025-05-02
 
 ### Changed
@@ -22,26 +33,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Create CHANGELOG file.
+- Add CHANGELOG.
 
 ## [1.1.1](https://github.com/serbouty/cs50x/releases/tag/v1.1.1) - 2025-04-24
 
 ### Added
 
-- Create release branch for GitHub.
+- Create releases for GitHub.
 
 ## [1.1.0](https://github.com/serbouty/cs50x/releases/tag/v1.1.0) - 2025-04-24
 
 ### Added
 
-- Following UC San Diego course for data structures, snippets on week 2.
+- Finish UC San Diego course on data structures.
 
 ## 1.0.0 - 2025-04-24
 
 ### Added
 
-- Add snippets from lecture 1.
-- Add snippets from lecture 2.
-- Add snippets from lecture 3.
-- Add snippets from lecture 4.
-- Add snippets from lecture 5.
+- Finish lecture 0 from CS50x.
+- Finish lecture 1 from CS50x.
+- Finish lecture 2 from CS50x.
+- Finish lecture 3 from CS50x.
+- Finish lecture 4 from CS50x.
+- Finish lecture 5 from CS50x.
