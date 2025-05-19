@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-#include "../cs50/cs50.c"
-
 /* Standard library for characters. */
 #include <ctype.h>
 
 int main(void)
 {
-    char *s = get_string(NULL, "string: ");
+    char *s;
+
+    printf("String: ");
+
+    scanf("%s", s);
 
     /* Different variables with same addresses, same location in the memory. */
     char *t = s;

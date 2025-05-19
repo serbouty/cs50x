@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "../cs50/cs50.c"
-
 /**
  * Update a text file from the command line.
  */
@@ -10,9 +8,16 @@ int main(void)
 {
     FILE *file = fopen("file.csv", "w"); /* Opening file in write mode. */
 
-    char *name = get_string(NULL, "Name: ");
+    char *name;
+    char *number;
 
-    char *number = get_string(NULL, "Number: ");
+    printf("Name: ");
+
+    scanf("%s", name);
+
+    printf("Number: ");
+
+    scanf("%s", number);
 
     if (file == NULL) /* File not found. */
     {

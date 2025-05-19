@@ -3,14 +3,16 @@
 #include <stdlib.h> /* Standard library for memory management. */
 #include <string.h>
 
-#include "../cs50/cs50.c"
-
 /**
  * Allocate memory for the copy of a string.
  */
 int main(void)
 {
-    char *s = get_string(NULL, "string: ");
+    char *s;
+
+    printf("String: ");
+
+    scanf("%s", s);
 
     /**
      * Allocate enough memory to handle the new string.
