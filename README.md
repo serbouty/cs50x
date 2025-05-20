@@ -13,13 +13,13 @@
         <img src="https://img.shields.io/badge/cmake-3-blue?style=flat&logo=c" alt="CMake 3" /></a>
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-mit-white?style=flat&logo=github" alt="License MIT" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.1">
-        <img src="https://img.shields.io/badge/version-1.2.1-white?style=flat&logo=github" alt="Version 1.2.1" /></a>
-    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.1">
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.2">
+        <img src="https://img.shields.io/badge/version-1.2.2-white?style=flat&logo=github" alt="Version 1.2.2" /></a>
+    <a href="https://github.com/serbouty/cs50x/releases/tag/v1.2.2">
         <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Complete" /></a>
 </p>
 
-## Installation
+## Requirements
 
 ### Visual Studio Code with GitHub Codespaces
 
@@ -27,14 +27,16 @@
 
 ### Visual Studio Code with Windows
 
-1. Install Visual Studio Code, then follow [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) until your installation is [checked](https://code.visualstudio.com/docs/cpp/config-mingw#_check-your-mingw-installation).
-2. Run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-cmake` on **MSYS2 UCRT64** console.
-3. Install the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension in Visual Studio Code.
-4. Set the kit to **GCC** when asked, choose **src/CMakeLists** when asked.
-5. Build executables in **CMake Project Outline**.
-6. Run each .exe in the terminal with `./<file-name>.exe` (location in the build folder).
+1. Install [Visual Studio Code](https://code.visualstudio.com/).
+2. Follow [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) until your installation is [checked](https://code.visualstudio.com/docs/cpp/config-mingw#_check-your-mingw-installation).
+3. Run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-cmake` on **MSYS2 UCRT64**.
+4. Install [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension in Visual Studio Code.
+5. Choose **src/CMakeLists.txt** when asked.
+6. Choose **GCC (ucrt64)** when asked (can be replaced later in **CMake: Project Status**).
+7. Build executables in **CMake: Project Outline**.
+8. Run each .exe in the terminal with `./<file-name>.exe` (location in the **build** folder).
 
-## Content
+## Lectures
 
 ### Lecture 0 : Scratch
 
@@ -81,9 +83,9 @@ Hash Tables. Tries.
 
 Code : [src/lecture5](src/lecture5)
 
-## Support
+## Resources
 
-### Harvard
+### Harvard University
 
 - [CS50x 2025](https://cs50.harvard.edu/x/2025/)
 - [CS50's Library for C](https://github.com/cs50/libcs50)
