@@ -1,15 +1,19 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.2.2](https://github.com/serbouty/cs50x/releases/tag/v1.2.2) - 2025-05-20
+
+### Changed
+
+- Update README.
 
 ## [1.2.1](https://github.com/serbouty/cs50x/releases/tag/v1.2.1) - 2025-05-19
 
 ### Changed
 
-- Update installation instructions.
+- Update README.
 
 ## [1.2.0](https://github.com/serbouty/cs50x/releases/tag/v1.2.0) - 2025-05-19
 
@@ -17,8 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update project naming convention.
 - Replace CS50 helpers with C libraries.
-- Update CHANGELOG.
-- Update README.
 
 ### Removed
 
@@ -29,7 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Update CHANGELOG.
 - Update README.
 
 ## [1.1.3](https://github.com/serbouty/cs50x/releases/tag/v1.1.3) - 2025-04-28
@@ -48,13 +49,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Create releases for GitHub.
+- Create release branch on GitHub.
 
 ## [1.1.0](https://github.com/serbouty/cs50x/releases/tag/v1.1.0) - 2025-04-24
 
 ### Added
 
-- Finish UC San Diego course on data structures.
+- Finish UC San Diego preview on data structures.
 
 ### Changed
 
