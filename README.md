@@ -19,7 +19,7 @@
         <img src="https://img.shields.io/badge/status-complete-darkblue?style=flat&logo=github" alt="Complete" /></a>
 </p>
 
-## Installation
+## Requirements
 
 1. Follow [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) until your installation is [checked](https://code.visualstudio.com/docs/cpp/config-mingw#_check-your-mingw-installation).
 2. Run `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-cmake` in **MSYS2 UCRT64** terminal.
@@ -31,7 +31,7 @@
 8. Select **GCC** when asked.
 9. Build executable files within **CMake: Project Outline**.
 
-## Content
+## Lectures
 
 ### Lecture 0 : Scratch
 
@@ -78,7 +78,7 @@ Hash Tables. Tries.
 
 Code : [src/lecture5](src/lecture5)
 
-## Resource
+## Resources
 
 ### Harvard University
 
