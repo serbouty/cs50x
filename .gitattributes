@@ -1,0 +1,20 @@
+# Auto
+*                   text=auto
+
+# Code
+*.c                 text diff=cpp
+*.css               text diff=css
+*.html              text diff=html
+*.js                text
+*.py                text diff=python
+
+# Documentation
+*.md                text diff=markdown
+
+# Configs
+*.txt               text
+.gitattributes      text
+.gitignore          text
+
+# Graphics
+*.png               binary
