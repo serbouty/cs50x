@@ -1,0 +1,9 @@
+# Executables
+add_executable(agree2 agree2.c)
+add_executable(calculator3 calculator3.c)
+add_executable(calculator4 calculator4.c)
+add_executable(calculator5 calculator5.c)
+add_executable(calculator7 calculator7.c)
+add_executable(cat15 cat15.c)
+add_executable(compare4 compare4.c)
+add_executable(hello2 hello2.c)
