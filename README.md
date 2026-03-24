@@ -53,11 +53,16 @@
 - Types, Conditionals, Variables, Loops, Linux, Graphical User Interface (GUI), Command-Line Interface (CLI).
 - Constants, Comments, Pseudocode, Operators, Integer Overflow, Floating-Point Imprecision.
 
+### Week 2: Arrays
+
+- Preprocessing. Compiling. Assembling. Linking. Debugging.
+- Arrays. Strings. Command-Line Arguments. Cryptography.
+
 ## Roadmap
 
 - [x] Week 0: Scratch
 - [x] Week 1: C
-- [ ] Week 2: Arrays
+- [x] Week 2: Arrays
 - [ ] Week 3: Algorithms
 - [ ] Week 4: Memory
 - [ ] Week 5: Data Structures
