@@ -5,3 +5,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Directories
 add_subdirectory(week_1)
+add_subdirectory(week_2)
