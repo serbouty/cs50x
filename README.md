@@ -40,10 +40,10 @@
 
 ### Week 0: Scratch
 
-- Computer Science. Computational Thinking.
+- Computer Science, Computational Thinking.
 - Problem Solving: Inputs, Outputs.
 - Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB.
-- Abstraction. Algorithms. Running Times. Pseudocode.
+- Abstraction. Algorithms, Running Times, Pseudocode.
 - Scratch: Functions, Arguments, Return Values, Variables, Boolean Expressions, Conditionals, Loops, Events, Threads.
 
 ### Week 1: C
@@ -55,15 +55,22 @@
 
 ### Week 2: Arrays
 
-- Preprocessing. Compiling. Assembling. Linking. Debugging.
-- Arrays. Strings. Command-Line Arguments. Cryptography.
+- Preprocessing, Compiling, Assembling, Linking, Debugging.
+- Arrays, Strings, Command-Line Arguments, Cryptography.
+
+### Week 2: Algorithms
+
+- Searching: Linear Search, Binary Search.
+- Sorting: Bubble Sort, Selection Sort, Merge Sort.
+- Asymptotic Notation: 𝑂, Ω, Θ.
+- Recursion.
 
 ## Roadmap
 
 - [x] Week 0: Scratch
 - [x] Week 1: C
 - [x] Week 2: Arrays
-- [ ] Week 3: Algorithms
+- [x] Week 3: Algorithms
 - [ ] Week 4: Memory
 - [ ] Week 5: Data Structures
 - [ ] Week 6: Python
