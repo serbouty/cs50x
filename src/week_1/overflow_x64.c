@@ -17,13 +17,9 @@ int main(void)
 
         // Overflow after two attempts
         if (c == 'Y' || c == 'y')
-        {
             dollars *= 2;
-        }
         else
-        {
             break;
-        }
     }
 
     printf("Here's $%lld.\n", dollars);
